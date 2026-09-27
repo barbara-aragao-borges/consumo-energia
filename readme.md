@@ -24,7 +24,8 @@ Custo_estimado = Consumo_mensal * 0.85  # Custo estimado (R$ 0,85 por kWh)
 
 ## ▶️ Como executar
 1. Clone este repositório:
-   ```bash https://github.com/barbara-aragao-borges/consumo-energia
+   ```bash
+   https://github.com/barbara-aragao-borges/consumo-energia
 
 2. Acesse a pasta:
 consumo-energia
@@ -34,7 +35,7 @@ python app.py
 
 4. Informações de entrada:
 Informe: O nome do aparelho que utilizará para a análise, a potência dele e quantas horas utiliza no dia. 
-Obs.: Caso for informar horas não inteiras, utiliza "." no lugar de ",", exemplo 0.5 (30min)
+Obs.: Caso for informar horas não inteiras, oriento a utilizar "." no lugar de "," exemplo 0.5 (30min)
 
 
 ## 🎨 Exemplo de saída
