@@ -25,7 +25,7 @@ Custo_estimado = Consumo_mensal * 0.85  # Custo estimado (R$ 0,85 por kWh)
 ## ▶️ Como executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/barbara-aragao-borges/consumo-energial
+https://github.com/barbara-aragao-borges/consumo-energia
 
 2. Acesse a pasta:
 cd consumo-energia
