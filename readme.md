@@ -18,34 +18,35 @@ Calcular o consumo mensal em kWh e o custo estimado em reais, com base em:
 
 ## 📐 Fórmula utilizada
 Consumo_diario = (Potencia * Horas_dia) / 1000  # Convertendo para kWh
+
 Consumo_mensal = Consumo_diario * 30  # Considerando 30 dias no mês
+
 Custo_estimado = Consumo_mensal * 0.85  # Custo estimado (R$ 0,85 por kWh)
 
 
 ## ▶️ Como executar
-1. Clone este repositório:
-   ```bash
-   https://github.com/barbara-aragao-borges/consumo-energia
+Para que o sistema analise, informe:
+- O nome do aparelho que utilizará para a análise
+- A potência do aparelho
+- Quantas horas utiliza esse aparelho por dia.
 
-2. Acesse a pasta:
-consumo-energia
-
-3. Execute o programa:
-python app.py
-
-4. Informações de entrada:
-Informe: O nome do aparelho que utilizará para a análise, a potência dele e quantas horas utiliza no dia. 
 Obs.: Caso for informar horas não inteiras, oriento a utilizar "." no lugar de "," exemplo 0.5 (30min)
 
 
 ## 🎨 Exemplo de saída
 
 ---resultado---
+
 O consumo diário do aparelho Batedeira é de 0.60 kWh.
+
 O consumo mensal do aparelho Batedeira é de 18.00 kWh.
+
 O custo mensal baseado no consumo do aparelho Batedeira é de R$ 15.30.
+
 Lembre-se de que esses valores são estimativas e podem variar dependendo do uso real do aparelho e da tarifa de energia elétrica.
+
 utilize o consumo de energia de forma consciente para economizar e preservar o meio ambiente.
+
 Obrigado por utilizar o programa de cálculo de consumo de energia!
 
 
